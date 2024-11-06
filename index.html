@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="trashIcon">
+            🗑️
+        </div>
+        <h1>To-Do List</h1><area shape="" coords="" href="" alt="">
+     
+        <div class="input-group">
+            <input type="text" id="taskInput" required placeholder="Add a new task...">
+            <button id="addTaskBtn">Add</button>
+        </div>
+        <ul id="taskList"></ul>
+       
+    </div>
+    <!-- Modal for trash items -->
+    <div id="trashModal" class="modal">
+        <div class="modal-content">
+            <h2>Deleted Tasks</h2>
+            <ul id="trashList"></ul>
+            <button id="closeTrashBtn">Close</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
